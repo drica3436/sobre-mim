@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Quando&display=swap'); 
+
+ 
+
+*{ 
+
+ 
+
+    margin: 0%; 
+
+    padding: 0%; 
+
+} 
+
+.body__about{ 
+
+    box-sizing: border-box; 
+
+    background-color: #091934; 
+
+    background-image: url(../asset/foto\ background\ about.png); 
+
+    background-repeat: no-repeat; 
+
+     
+
+} 
+
+ 
+
+.cabecalho{ 
+
+    padding: 2% 0% 0% 15%; 
+
+} 
+
+ 
+
+.cabecalho__menu{ 
+
+    display: flex; 
+
+    gap: 80px; 
+
+} 
+
+ 
+
+.cabecalho__link{ 
+
+     font-family: "Quando", serif; 
+
+     font-size: 1.5rem; 
+
+     font-weight: 600; 
+
+     text-decoration: none; 
+
+     color: #FEF7F2; 
+
+     
+
+} 
+
+ 
+
+.cabecalho__link:hover{ 
+
+    color: #96DBFF ; 
+
+} 
+
+ 
+
+.conteudo__about{ 
+
+    margin: 5% 10%; 
+
+    display: flex; 
+
+    align-items: center; 
+
+    flex-direction: column-reverse; 
+
+    
+
+} 
+
+ 
+
+.conteudo__texto__about{ 
+
+    color:#FEF7F2 ; 
+
+    display: flex; 
+
+    flex-direction: column; 
+
+    gap: 40px; 
+
+} 
+
+ 
+
+ 
+
+.conteudo__texto__frase__about{ 
+
+    font-family: "Quando", serif; 
+
+    font-size: 1.5rem; 
+
+      
+
+} 
+
+ 
+
+.conteudo__dubtitulo__about{ 
+
+    color: #96DBFF; 
+
+} 
+
+ 
+
+.imagem__adriana__about{ 
+
+    width: 30%; 
+
+} 
+
+ 
+
+.conteudo__dubtitulo__about{ 
+
+    text-align: center; 
+
+ 
+
+} 
+
+.logos__texto{ 
+
+    color:#FEF7F2;  
+
+    display: flex; 
+
+    gap: 45px; 
+
+    margin: 2%; 
+
+     
+
+} 
+
+.logos{ 
+
+    width: 20% 
+
+} 
+
+ 
+
+.rodape{ 
+
+    padding: 24px; 
+
+    background-color: #060B3B; 
+
+    color: #FEF7F2; 
+
+    font-family: "Quando", serif; 
+
+    font-size: 1.5rem; 
+
+    font-weight: 400; 
+
+    text-align: center; 
+
+     
+
+} 
+
+     
+
+@media (max-width: 1124px){ 
+
+    .cabecalho{ 
+
+      padding: 10%;} 
+
+ 
+
+    .cabecalho__menu{ 
+
+      justify-content: center; 
+
+     
+
+    } 
+
+ 
+
+    .conteudo__about{ 
+
+      flex-direction: column-reverse; 
+
+      padding: 5%; 
+
+ 
+
+    }     
+
+     .logos__texto{ 
+
+        flex-direction:column; 
+
+        margin: 3%; 
+
+     } 
+
+      .imagem__adriana__about{ 
+
+        width: 50%; 
+
+      } 
+
+     .logos{ 
+
+        margin: 5% 0% 0% 20%; 
+
+        width: 50%; 
+
+     } 
+
+ 
+
+      .conteudo__texto__about{ 
+
+      width: auto; 
+
+ 
+
+   } 
+
+} 
+
+ 
